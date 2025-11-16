@@ -1,0 +1,14 @@
+
+[package]
+name = "aon_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "aon_core"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+lazy_static = "1.4"

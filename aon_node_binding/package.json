@@ -1,0 +1,10 @@
+{
+  "name": "aon-binding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "gypfile": true,
+  "devDependencies": {
+    "node-addon-api": "^8.5.0",
+    "node-gyp": "^12.1.0"
+  }
+}
